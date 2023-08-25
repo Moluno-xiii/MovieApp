@@ -24,6 +24,7 @@ root.render(
     <StarRating defaultRating = {3}/>
     <StarRating  color='red' size={60} messages={['Very Bad', 'Bad', 'Good', 'Very Good', 'Amazing']}/>
     <Test /> 
+    <StarRating color='pink' size={40} maxRating={15}/>
     
   </React.StrictMode>
 );
