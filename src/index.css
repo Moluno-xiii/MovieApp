@@ -14,7 +14,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -160,9 +159,6 @@ body {
 .box::-webkit-scrollbar-track {
   background-color: transparent; /* Color of the track */
 }
-
-
-
 
 .list-watched {
   height: calc(100% - 9rem);
@@ -361,4 +357,3 @@ body {
   align-items: center;
   justify-content: center;
 }
-
