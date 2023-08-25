@@ -47,6 +47,7 @@ const tempWatchedData = [
   },
 ];
 
+
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
@@ -85,7 +86,7 @@ const SearchBar = () => {
   const [query, setQuery] = useState("");
   return (
     <input
-      className="search"
+      className="search"d
       type="text"
       placeholder="Search movies..."
       value={query}
@@ -96,7 +97,7 @@ const SearchBar = () => {
 
 const Logo = () => {
   return (
-    <div className="logo">d
+    <div className="logo">
       <span role="img">🍿</span>
       <h1>usePopcorn</h1>
     </div>
