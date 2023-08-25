@@ -96,7 +96,7 @@ const SearchBar = () => {
 
 const Logo = () => {
   return (
-    <div className="logo">
+    <div className="logo">d
       <span role="img">🍿</span>
       <h1>usePopcorn</h1>
     </div>
